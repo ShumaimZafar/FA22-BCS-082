@@ -1,0 +1,41 @@
+Shumaim Class Documentation:
+
+1. Overview:
+   The 'Shumaim' class contains implementations for three distinct functionalities:
+   - Sorting an array of integers in descending order.
+   - Calculating statistics (median, variance, standard deviation, sum of squares) for an array of integers.
+   - Performing matrix multiplication for two 2D matrices.
+
+2. Methods:
+   a. `main` method:
+      - Entry point of the program.
+      - Demonstrates the usage of the implemented functionalities.
+
+   b. `sortDescending` method:
+      - Sorts an array of integers in descending order.
+      - Utilizes `Arrays.sort` and array element swapping.
+
+   c. `calculateStatistics` method:
+      - Calculates statistics for an array of integers.
+      - Statistics include median, variance, standard deviation, and sum of squares.
+      - Uses basic statistical formulas without external libraries.
+
+   d. `matrixMultiplication` method:
+      - Performs matrix multiplication for two 2D matrices.
+      - Validates matrix dimensions and throws an exception for invalid cases.
+      - Utilizes nested loops to compute the product matrix.
+
+3. Example Usage:
+   - The 'main' method provides example usages for each functionality:
+      - Sorting an array in descending order.
+      - Calculating statistics for an array of integers.
+      - Performing matrix multiplication for two matrices.
+
+4. Dependencies:
+   - The class relies on the 'java.util.Arrays' class for sorting arrays.
+
+5. Author:
+   - The code is authored by 'Shumaim'.
+
+6. Version:
+   - Current version is '1.0'.
